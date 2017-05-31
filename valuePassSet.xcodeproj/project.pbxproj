@@ -9,12 +9,26 @@
 /* Begin PBXBuildFile section */
 		3119C1461EDE8F7800D8EFFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1451EDE8F7800D8EFFB /* main.m */; };
 		3119C1491EDE8F7800D8EFFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1481EDE8F7800D8EFFB /* AppDelegate.m */; };
-		3119C14C1EDE8F7800D8EFFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C14B1EDE8F7800D8EFFB /* ViewController.m */; };
 		3119C14F1EDE8F7800D8EFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3119C14D1EDE8F7800D8EFFB /* Main.storyboard */; };
 		3119C1511EDE8F7800D8EFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3119C1501EDE8F7800D8EFFB /* Assets.xcassets */; };
 		3119C1541EDE8F7800D8EFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3119C1521EDE8F7800D8EFFB /* LaunchScreen.storyboard */; };
 		3119C15F1EDE8F7900D8EFFB /* valuePassSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C15E1EDE8F7900D8EFFB /* valuePassSetTests.m */; };
 		3119C16A1EDE8F7900D8EFFB /* valuePassSetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1691EDE8F7900D8EFFB /* valuePassSetUITests.m */; };
+		3119C1791EDE8FBB00D8EFFB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1781EDE8FBB00D8EFFB /* HomeViewController.m */; };
+		3119C1811EDE902500D8EFFB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C17C1EDE902500D8EFFB /* BaseViewController.m */; };
+		3119C1821EDE902500D8EFFB /* InputBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C17E1EDE902500D8EFFB /* InputBaseViewController.m */; };
+		3119C1831EDE902500D8EFFB /* OutputBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1801EDE902500D8EFFB /* OutputBaseViewController.m */; };
+		3119C18B1EDE90C100D8EFFB /* AttributeOutputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1881EDE90C100D8EFFB /* AttributeOutputViewController.m */; };
+		3119C18C1EDE90C100D8EFFB /* AttributeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C18A1EDE90C100D8EFFB /* AttributeViewController.m */; };
+		3119C1921EDE90CB00D8EFFB /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C18F1EDE90CB00D8EFFB /* BlockViewController.m */; };
+		3119C1931EDE90CB00D8EFFB /* InputBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1911EDE90CB00D8EFFB /* InputBlockViewController.m */; };
+		3119C1991EDE90D400D8EFFB /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1961EDE90D400D8EFFB /* DelegateViewController.m */; };
+		3119C19A1EDE90D400D8EFFB /* InputDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1981EDE90D400D8EFFB /* InputDelegateViewController.m */; };
+		3119C1A01EDE90DE00D8EFFB /* InputNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C19D1EDE90DE00D8EFFB /* InputNotificationViewController.m */; };
+		3119C1A11EDE90DE00D8EFFB /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C19F1EDE90DE00D8EFFB /* NotificationViewController.m */; };
+		3119C1A91EDE90E300D8EFFB /* InputSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1A41EDE90E300D8EFFB /* InputSingletonViewController.m */; };
+		3119C1AA1EDE90E300D8EFFB /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1A61EDE90E300D8EFFB /* SingletonViewController.m */; };
+		3119C1AB1EDE90E300D8EFFB /* Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 3119C1A81EDE90E300D8EFFB /* Value.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +53,6 @@
 		3119C1451EDE8F7800D8EFFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3119C1471EDE8F7800D8EFFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3119C1481EDE8F7800D8EFFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3119C14A1EDE8F7800D8EFFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3119C14B1EDE8F7800D8EFFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3119C14E1EDE8F7800D8EFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3119C1501EDE8F7800D8EFFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3119C1531EDE8F7800D8EFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,38 @@
 		3119C1651EDE8F7900D8EFFB /* valuePassSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = valuePassSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3119C1691EDE8F7900D8EFFB /* valuePassSetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = valuePassSetUITests.m; sourceTree = "<group>"; };
 		3119C16B1EDE8F7900D8EFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3119C1771EDE8FBB00D8EFFB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3119C1781EDE8FBB00D8EFFB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3119C17B1EDE902500D8EFFB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3119C17C1EDE902500D8EFFB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3119C17D1EDE902500D8EFFB /* InputBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputBaseViewController.h; sourceTree = "<group>"; };
+		3119C17E1EDE902500D8EFFB /* InputBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputBaseViewController.m; sourceTree = "<group>"; };
+		3119C17F1EDE902500D8EFFB /* OutputBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputBaseViewController.h; sourceTree = "<group>"; };
+		3119C1801EDE902500D8EFFB /* OutputBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputBaseViewController.m; sourceTree = "<group>"; };
+		3119C1841EDE903A00D8EFFB /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		3119C1851EDE904600D8EFFB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3119C1871EDE90C100D8EFFB /* AttributeOutputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeOutputViewController.h; sourceTree = "<group>"; };
+		3119C1881EDE90C100D8EFFB /* AttributeOutputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeOutputViewController.m; sourceTree = "<group>"; };
+		3119C1891EDE90C100D8EFFB /* AttributeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeViewController.h; sourceTree = "<group>"; };
+		3119C18A1EDE90C100D8EFFB /* AttributeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeViewController.m; sourceTree = "<group>"; };
+		3119C18E1EDE90CB00D8EFFB /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		3119C18F1EDE90CB00D8EFFB /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		3119C1901EDE90CB00D8EFFB /* InputBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputBlockViewController.h; sourceTree = "<group>"; };
+		3119C1911EDE90CB00D8EFFB /* InputBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputBlockViewController.m; sourceTree = "<group>"; };
+		3119C1951EDE90D400D8EFFB /* DelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateViewController.h; sourceTree = "<group>"; };
+		3119C1961EDE90D400D8EFFB /* DelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateViewController.m; sourceTree = "<group>"; };
+		3119C1971EDE90D400D8EFFB /* InputDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputDelegateViewController.h; sourceTree = "<group>"; };
+		3119C1981EDE90D400D8EFFB /* InputDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputDelegateViewController.m; sourceTree = "<group>"; };
+		3119C19C1EDE90DE00D8EFFB /* InputNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputNotificationViewController.h; sourceTree = "<group>"; };
+		3119C19D1EDE90DE00D8EFFB /* InputNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputNotificationViewController.m; sourceTree = "<group>"; };
+		3119C19E1EDE90DE00D8EFFB /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		3119C19F1EDE90DE00D8EFFB /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		3119C1A31EDE90E300D8EFFB /* InputSingletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputSingletonViewController.h; sourceTree = "<group>"; };
+		3119C1A41EDE90E300D8EFFB /* InputSingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputSingletonViewController.m; sourceTree = "<group>"; };
+		3119C1A51EDE90E300D8EFFB /* SingletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonViewController.h; sourceTree = "<group>"; };
+		3119C1A61EDE90E300D8EFFB /* SingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonViewController.m; sourceTree = "<group>"; };
+		3119C1A71EDE90E300D8EFFB /* Value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Value.h; sourceTree = "<group>"; };
+		3119C1A81EDE90E300D8EFFB /* Value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Value.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +145,16 @@
 		3119C1431EDE8F7800D8EFFB /* valuePassSet */ = {
 			isa = PBXGroup;
 			children = (
+				3119C1A21EDE90E300D8EFFB /* 单例传值 */,
+				3119C19B1EDE90DE00D8EFFB /* 通知传值 */,
+				3119C1941EDE90D400D8EFFB /* 代理传值 */,
+				3119C18D1EDE90CB00D8EFFB /* Block传值 */,
+				3119C1861EDE90C100D8EFFB /* 正向（属性）传值 */,
+				3119C17A1EDE8FFA00D8EFFB /* 基类 */,
 				3119C1471EDE8F7800D8EFFB /* AppDelegate.h */,
 				3119C1481EDE8F7800D8EFFB /* AppDelegate.m */,
-				3119C14A1EDE8F7800D8EFFB /* ViewController.h */,
-				3119C14B1EDE8F7800D8EFFB /* ViewController.m */,
-				3119C14D1EDE8F7800D8EFFB /* Main.storyboard */,
-				3119C1501EDE8F7800D8EFFB /* Assets.xcassets */,
-				3119C1521EDE8F7800D8EFFB /* LaunchScreen.storyboard */,
-				3119C1551EDE8F7800D8EFFB /* Info.plist */,
+				3119C1771EDE8FBB00D8EFFB /* HomeViewController.h */,
+				3119C1781EDE8FBB00D8EFFB /* HomeViewController.m */,
 				3119C1441EDE8F7800D8EFFB /* Supporting Files */,
 			);
 			path = valuePassSet;
@@ -117,6 +163,12 @@
 		3119C1441EDE8F7800D8EFFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3119C1841EDE903A00D8EFFB /* Header.h */,
+				3119C1851EDE904600D8EFFB /* PrefixHeader.pch */,
+				3119C14D1EDE8F7800D8EFFB /* Main.storyboard */,
+				3119C1521EDE8F7800D8EFFB /* LaunchScreen.storyboard */,
+				3119C1501EDE8F7800D8EFFB /* Assets.xcassets */,
+				3119C1551EDE8F7800D8EFFB /* Info.plist */,
 				3119C1451EDE8F7800D8EFFB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +190,76 @@
 				3119C16B1EDE8F7900D8EFFB /* Info.plist */,
 			);
 			path = valuePassSetUITests;
+			sourceTree = "<group>";
+		};
+		3119C17A1EDE8FFA00D8EFFB /* 基类 */ = {
+			isa = PBXGroup;
+			children = (
+				3119C17B1EDE902500D8EFFB /* BaseViewController.h */,
+				3119C17C1EDE902500D8EFFB /* BaseViewController.m */,
+				3119C17D1EDE902500D8EFFB /* InputBaseViewController.h */,
+				3119C17E1EDE902500D8EFFB /* InputBaseViewController.m */,
+				3119C17F1EDE902500D8EFFB /* OutputBaseViewController.h */,
+				3119C1801EDE902500D8EFFB /* OutputBaseViewController.m */,
+			);
+			path = "基类";
+			sourceTree = "<group>";
+		};
+		3119C1861EDE90C100D8EFFB /* 正向（属性）传值 */ = {
+			isa = PBXGroup;
+			children = (
+				3119C1871EDE90C100D8EFFB /* AttributeOutputViewController.h */,
+				3119C1881EDE90C100D8EFFB /* AttributeOutputViewController.m */,
+				3119C1891EDE90C100D8EFFB /* AttributeViewController.h */,
+				3119C18A1EDE90C100D8EFFB /* AttributeViewController.m */,
+			);
+			path = "正向（属性）传值";
+			sourceTree = "<group>";
+		};
+		3119C18D1EDE90CB00D8EFFB /* Block传值 */ = {
+			isa = PBXGroup;
+			children = (
+				3119C18E1EDE90CB00D8EFFB /* BlockViewController.h */,
+				3119C18F1EDE90CB00D8EFFB /* BlockViewController.m */,
+				3119C1901EDE90CB00D8EFFB /* InputBlockViewController.h */,
+				3119C1911EDE90CB00D8EFFB /* InputBlockViewController.m */,
+			);
+			path = "Block传值";
+			sourceTree = "<group>";
+		};
+		3119C1941EDE90D400D8EFFB /* 代理传值 */ = {
+			isa = PBXGroup;
+			children = (
+				3119C1951EDE90D400D8EFFB /* DelegateViewController.h */,
+				3119C1961EDE90D400D8EFFB /* DelegateViewController.m */,
+				3119C1971EDE90D400D8EFFB /* InputDelegateViewController.h */,
+				3119C1981EDE90D400D8EFFB /* InputDelegateViewController.m */,
+			);
+			path = "代理传值";
+			sourceTree = "<group>";
+		};
+		3119C19B1EDE90DE00D8EFFB /* 通知传值 */ = {
+			isa = PBXGroup;
+			children = (
+				3119C19C1EDE90DE00D8EFFB /* InputNotificationViewController.h */,
+				3119C19D1EDE90DE00D8EFFB /* InputNotificationViewController.m */,
+				3119C19E1EDE90DE00D8EFFB /* NotificationViewController.h */,
+				3119C19F1EDE90DE00D8EFFB /* NotificationViewController.m */,
+			);
+			path = "通知传值";
+			sourceTree = "<group>";
+		};
+		3119C1A21EDE90E300D8EFFB /* 单例传值 */ = {
+			isa = PBXGroup;
+			children = (
+				3119C1A31EDE90E300D8EFFB /* InputSingletonViewController.h */,
+				3119C1A41EDE90E300D8EFFB /* InputSingletonViewController.m */,
+				3119C1A51EDE90E300D8EFFB /* SingletonViewController.h */,
+				3119C1A61EDE90E300D8EFFB /* SingletonViewController.m */,
+				3119C1A71EDE90E300D8EFFB /* Value.h */,
+				3119C1A81EDE90E300D8EFFB /* Value.m */,
+			);
+			path = "单例传值";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +395,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3119C14C1EDE8F7800D8EFFB /* ViewController.m in Sources */,
+				3119C1821EDE902500D8EFFB /* InputBaseViewController.m in Sources */,
+				3119C18B1EDE90C100D8EFFB /* AttributeOutputViewController.m in Sources */,
 				3119C1491EDE8F7800D8EFFB /* AppDelegate.m in Sources */,
+				3119C1921EDE90CB00D8EFFB /* BlockViewController.m in Sources */,
+				3119C1831EDE902500D8EFFB /* OutputBaseViewController.m in Sources */,
+				3119C1811EDE902500D8EFFB /* BaseViewController.m in Sources */,
+				3119C1AA1EDE90E300D8EFFB /* SingletonViewController.m in Sources */,
+				3119C1A91EDE90E300D8EFFB /* InputSingletonViewController.m in Sources */,
+				3119C1A01EDE90DE00D8EFFB /* InputNotificationViewController.m in Sources */,
+				3119C1A11EDE90DE00D8EFFB /* NotificationViewController.m in Sources */,
+				3119C1AB1EDE90E300D8EFFB /* Value.m in Sources */,
+				3119C19A1EDE90D400D8EFFB /* InputDelegateViewController.m in Sources */,
 				3119C1461EDE8F7800D8EFFB /* main.m in Sources */,
+				3119C1931EDE90CB00D8EFFB /* InputBlockViewController.m in Sources */,
+				3119C1991EDE90D400D8EFFB /* DelegateViewController.m in Sources */,
+				3119C1791EDE8FBB00D8EFFB /* HomeViewController.m in Sources */,
+				3119C18C1EDE90C100D8EFFB /* AttributeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,6 +562,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/valuePassSet/PrefixHeader.pch";
 				INFOPLIST_FILE = valuePassSet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hooyking.valuePassSet;
@@ -437,6 +575,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/valuePassSet/PrefixHeader.pch";
 				INFOPLIST_FILE = valuePassSet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hooyking.valuePassSet;

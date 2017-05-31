@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  DelegateViewController.h
 //  valuePassSet
 //
 //  Created by hooyking on 2017/5/31.
 //  Copyright © 2017年 hooyking. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "OutputBaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface DelegateViewController : OutputBaseViewController
 
 @end
-
